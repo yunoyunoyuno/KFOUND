@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pretrained weights (large files — upload to Google Drive / personal storage)
+pretrained_weights/
+
+# PyTorch model weights (large files)
+*.pth
+*.pkl
+
+# Keep small decoder weights
+!weights/decoder_weights_kfound_g9d4.pt
+
+# Video files (too large for git — upload to GitHub Releases or YouTube)
+*.mp4
+*.avi
+*.mov
+
+# Generated outputs
+outputs/
+output_*/
+pred_annotations/
+Visual/
+video_frames/
+
+# Allow image assets and demo video in assets/ folder
+!assets/*.jpg
+!assets/*.png
+!assets/samples/*.jpg
+!assets/*.mp4
+
+# Data directories (user must download separately)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+events.out.tfevents.*
+
+# Submission / private docs
+submit_ver1/

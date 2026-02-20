@@ -1,0 +1,31 @@
+# KFOUND — Core dependencies
+torch>=1.9
+torchvision>=0.10
+
+# Detectron2 (install separately — see README)
+# pip install 'git+https://github.com/facebookresearch/detectron2.git'
+
+# Vision & image processing
+opencv-python>=4.5
+Pillow>=8.0
+scipy>=1.7
+scikit-image>=0.18
+scikit-learn>=0.24
+
+# DenseCRF
+pydensecrf @ git+https://github.com/lucasb-eyer/pydensecrf.git
+
+# COCO evaluation
+pycocotools>=2.0
+
+# Config & logging
+pyyaml>=5.4
+tensorboard>=2.5
+tqdm>=4.60
+
+# Visualization & analysis
+matplotlib>=3.4
+numpy>=1.21
+
+# Video inference demo (optional)
+supervision>=0.6
