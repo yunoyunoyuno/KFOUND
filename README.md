@@ -452,7 +452,17 @@ If this work contributes to your research, please cite the following paper. For 
 ```
 
 ```bibtex
-@inproceedings{Simeoni21FOUND,
+@inproceedings{simeoni2023found,
+  title     = {Unsupervised Object Localization: Observing the Background to Discover Objects},
+  author    = {Sim\'eoni, Oriane and Sekkat, Chlo\'e and Puy, Gilles and Bursuc, Andrei
+               and Labbe, Eloi and P\'erez, Patrick and Marlet, Renaud},
+  booktitle = {Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  year      = {2023}
+}
+```
+
+```bibtex
+@inproceedings{simeoni2021lost,
   title     = {Localizing Objects with Self-Supervised Transformers and no Labels},
   author    = {Sim\'eoni, Oriane and Puy, Gilles and Vo, Huy V. and Roburin, Simon
                and Gidaris, Spyros and Bursuc, Andrei and P\'erez, Patrick and Marlet, Renaud},
