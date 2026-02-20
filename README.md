@@ -438,10 +438,12 @@ If this work contributes to your research, please cite the following paper. For 
 
 ```bibtex
 @article{otsuka2026kfound,
-  title     = {{KFOUND}: {KAN}-Based {FOUND} for Unsupervised Class-Agnostic Object Detection},
-  author    = {Otsuka, Yuno and Kiyooka, Ryoga and Tanlongburanakun, Pongsathon
-               and Pattanasak, Saran and Phothong, Win and Lipikorn, Rajalida},
+  title     = {An unsupervised pipeline for class-agnostic object detection using
+               self-supervised vision transformers and {Kolmogorov-Arnold Networks}},
+  author    = {Otsuka, Yuno and Kantavat, Pittipol and Kijsirikul, Boonserm},
   journal   = {Machine Learning with Applications},
+  volume    = {24},
+  pages     = {100870},
   year      = {2026},
   publisher = {Elsevier},
   doi       = {10.1016/j.mlwa.2026.100870},
