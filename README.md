@@ -379,12 +379,14 @@ The following samples show class-agnostic detections produced by KFOUND on COCO2
 ## Video Demo
 
 <p align="center">
-  <video src="assets/weird_object_u.mp4" controls width="80%">
+  <video src="https://raw.githubusercontent.com/yunoyunoyuno/KFOUND/main/assets/weird_object_u.mp4" controls width="80%">
     Your browser does not support the video tag.
   </video>
   <br>
   <em>KFOUND class-agnostic detections on real-world video footage. The model detects any foreground object without class labels.</em>
 </p>
+
+> If the video does not play inline, [click here to download/view it directly](https://raw.githubusercontent.com/yunoyunoyuno/KFOUND/main/assets/weird_object_u.mp4).
 
 The demo notebook [`examples/video_inference_demo.ipynb`](examples/video_inference_demo.ipynb) shows how to run the detector on arbitrary video using the [Supervision](https://github.com/roboflow/supervision) library.
 
