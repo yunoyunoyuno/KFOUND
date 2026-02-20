@@ -353,45 +353,6 @@ python3 evaluate_frcnn_multiple_seeds.py
 
 ---
 
-## Qualitative Detection Results
-
-The following samples show class-agnostic detections produced by KFOUND on COCO20k validation images. The detector was trained without any manual annotations.
-
-<p align="center">
-  <img src="assets/000000110211.jpg" width="30%" alt="COCO sample 1">
-  <img src="assets/000000471450.jpg" width="30%" alt="COCO sample 2">
-  <img src="assets/000000230983.jpg" width="30%" alt="COCO sample 3">
-</p>
-<p align="center">
-  <img src="assets/000000047010.jpg" width="30%" alt="COCO sample 4">
-  <img src="assets/000000036660.jpg" width="30%" alt="COCO sample 5">
-  <img src="assets/000000011760.jpg" width="30%" alt="COCO sample 6">
-</p>
-<p align="center">
-  <img src="assets/000000001268.jpg" width="30%" alt="COCO sample 7">
-</p>
-<p align="center">
-  <em>Sample class-agnostic detections on COCO20k. Bounding boxes are predicted without any class labels — the model detects <em>any</em> foreground object.</em>
-</p>
-
----
-
-## Video Demo
-
-<p align="center">
-  <video src="https://raw.githubusercontent.com/yunoyunoyuno/KFOUND/main/assets/weird_object_u.mp4" controls width="80%">
-    Your browser does not support the video tag.
-  </video>
-  <br>
-  <em>KFOUND class-agnostic detections on real-world video footage. The model detects any foreground object without class labels.</em>
-</p>
-
-> If the video does not play inline, [click here to download/view it directly](https://raw.githubusercontent.com/yunoyunoyuno/KFOUND/main/assets/weird_object_u.mp4).
-
-The demo notebook [`examples/video_inference_demo.ipynb`](examples/video_inference_demo.ipynb) shows how to run the detector on arbitrary video using the [Supervision](https://github.com/roboflow/supervision) library.
-
----
-
 ## Repository Structure
 
 ```
@@ -433,6 +394,41 @@ KFOUND/
 ├── requirements.txt
 └── LICENSE
 ```
+
+---
+
+## Video Demo
+
+<p align="center">
+  <img src="assets/demo.gif" width="60%" alt="KFOUND demo">
+  <br>
+  <em>KFOUND class-agnostic detections on real-world video footage. The model detects any foreground object without class labels.</em>
+</p>
+
+The demo notebook [`examples/video_inference_demo.ipynb`](examples/video_inference_demo.ipynb) shows how to run the detector on arbitrary video using the [Supervision](https://github.com/roboflow/supervision) library.
+
+---
+
+## Qualitative Detection Results
+
+The following samples show class-agnostic detections produced by KFOUND on COCO20k validation images. The detector was trained without any manual annotations.
+
+<p align="center">
+  <img src="assets/000000110211.jpg" width="30%" alt="COCO sample 1">
+  <img src="assets/000000471450.jpg" width="30%" alt="COCO sample 2">
+  <img src="assets/000000230983.jpg" width="30%" alt="COCO sample 3">
+</p>
+<p align="center">
+  <img src="assets/000000047010.jpg" width="30%" alt="COCO sample 4">
+  <img src="assets/000000036660.jpg" width="30%" alt="COCO sample 5">
+  <img src="assets/000000011760.jpg" width="30%" alt="COCO sample 6">
+</p>
+<p align="center">
+  <img src="assets/000000001268.jpg" width="30%" alt="COCO sample 7">
+</p>
+<p align="center">
+  <em>Sample class-agnostic detections on COCO20k. Bounding boxes are predicted without any class labels — the model detects <em>any</em> foreground object.</em>
+</p>
 
 ---
 

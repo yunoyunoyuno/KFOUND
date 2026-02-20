@@ -29,9 +29,10 @@ pred_annotations/
 Visual/
 video_frames/
 
-# Allow image assets and demo video in assets/ folder
+# Allow image assets, GIF and demo video in assets/ folder
 !assets/*.jpg
 !assets/*.png
+!assets/*.gif
 !assets/samples/*.jpg
 !assets/*.mp4
 
