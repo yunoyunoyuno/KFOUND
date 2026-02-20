@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <b>Yuno Otsuka, Ryoga Kiyooka, Pongsathon Tanlongburanakun, Saran Pattanasak, Win Phothong, Rajalida Lipikorn</b><br>
-  <i>Department of Mathematics and Computer Science, Faculty of Science, Chulalongkorn University</i><br>
+  <b>Yuno Otsuka, Pittipol Kantavat, Boonserm Kijsirikul</b><br>
+  <i>Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University, Bangkok, 10330, Thailand</i><br>
   <i>Machine Learning with Applications, Elsevier, 2026</i>
 </p>
 
@@ -68,7 +68,7 @@ During **inference**, only the trained Faster R-CNN detector is needed — the K
 
 ## Requirements & Installation
 
-**Hardware:** NVIDIA GPU with ≥8 GB VRAM recommended (tested on RTX 3090 / A100)  
+**Hardware:** NVIDIA GPU with ≥8 GB VRAM recommended (tested on RTX 4070 Ti / 12 GB VRAM, AMD Ryzen 5 7600, 32 GB RAM)  
 **Software:** CUDA 11.8+, Python 3.10, Detectron2
 
 ### 1. Create Environment
