@@ -27,7 +27,7 @@
 > We present **KFOUND**, an unsupervised class-agnostic object detection pipeline that integrates Kolmogorov-Arnold Networks (KANs) into the FOUND background-based saliency framework. Unlike conventional 1×1 convolutional decoders that apply identical activation patterns across all feature channels, the proposed KAN decoder employs learnable B-spline activation functions—enabling channel-specific, non-linear feature transformations with only **5,760 parameters**. The resulting pipeline achieves superior saliency detection (IoU = 0.693 on DUTS-TE) and class-agnostic object detection performance (AP50 = 20.3 on COCO20k), while operating at **45 FPS** on standard hardware. Our approach requires **no human annotations** at any stage of training, making it broadly applicable across domains.
 
 **Key Contributions:**
-- A KAN-based decoder for unsupervised saliency that outperforms fixed-activation baselines with 14.9× more learnable activations than the original Conv 1×1 head.
+- A KAN-based decoder for unsupervised saliency object segmentation.
 - A complete 4-stage unsupervised detection pipeline: background segmentation → pseudo-box generation → Faster R-CNN training.
 - State-of-the-art class-agnostic AP50 on COCO20k (20.3) and Pascal VOC12 (39.7) among annotation-free methods.
 
@@ -38,7 +38,7 @@
 <p align="center">
   <img src="assets/figure6_robust.png" alt="KFOUND Architecture and Qualitative Results" width="100%">
   <br>
-  <em>Figure: KFOUND decoder architecture (left) and representative qualitative saliency results on DUTS-TE (right). The KAN head applies learnable B-spline activations per feature channel, producing sharper foreground masks compared to the conventional 1×1 convolutional decoder.</em>
+  <em>Figure: KFOUND's activation functions.</em>
 </p>
 
 ### Four-Stage Training Pipeline
